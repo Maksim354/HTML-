@@ -1,0 +1,51 @@
+/* Селектор елементу для заголовка */
+header {
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+}
+
+/* Класовий селектор для профілю */
+.profile {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Класовий селектор для зображення профілю */
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+}
+
+/* ID селектор для імені користувача */
+#user-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Класовий селектор для інтересів користувача */
+.interest {
+    list-style-type: none;
+    padding: 5px;
+    font-size: 1.2em;
+}
+
+/* Селектор псевдо-класу для hover ефекту на кнопках */
+button.action-btn:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+/* Класовий селектор для кнопок */
+.action-btn {
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+}
